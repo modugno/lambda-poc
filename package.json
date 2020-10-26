@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "sls invoke local -p event.json -f faturaPdf"
+  },
+  "dependencies": {
+    "html-pdf": "^2.2.0",
+    "jss": "^10.4.0",
+    "jss-preset-default": "^10.4.0"
+  },
+  "devDependencies": {
+    "handlebars": "^4.7.6",
+    "serverless-offline": "^6.8.0"
+  }
+}
